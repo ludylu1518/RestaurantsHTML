@@ -1,0 +1,136 @@
+<!Doctype html>
+<html>
+
+<head>
+    <title>My Favorite Resturant</title>
+</head>
+
+<body style="background-color: rgb(70, 191, 70);">
+    <!-- Introduction -->
+    <h1>My Top 5 Resturant</h1>
+    <i>This is a site where I rate and review my top 5 go to fast food resturants in no particular order.</i>
+
+    <!-- list of resturant with images and brief description -->
+    <div>
+        <ul>
+            <li>
+                <h2>Subway</h2>
+                <img src="./assets/subway.jpg" />
+                <p>Fast Food Resturant known for their sandwiches. Click <a href="https://www.subway.com/en-US" target="_blank">HERE</a> to go to their website.</p>
+            </li>
+            <li>
+                <h2>Domino's</h2>
+                <img src="./assets/domino's.jpg" />
+                <p>Fast Food Resturant known for their pizza. Click <a href="https://www.dominos.com/en/?utm_campaign=12899946141|c|GG&utm_source=Google&utm_medium=p_search&utm_content=kwd-24470291|12899946141|122001614375&utm_term=dominos&matchtype=e&gclid=CjwKCAjw4ZWkBhA4EiwAVJXwqYuoBupntNCE1psjTr9e5qm5vda792Hhluaj5SJIGPm7dGHqDmb-CBoCczgQAvD_BwE" target="_blank">HERE</a> to go to their website.</p>
+            </li>
+            <li>
+                <h2>Chick-Fil-A</h2>
+                <img src="./assets/chick-fil-A.jpg" />
+                <p>Fast Food Resturant known for their chiken sandwiches. Click <a href="https://www.chick-fil-a.com/" target="_blank">HERE</a> to go to their website.</p>
+            </li>
+            <li>
+                <h2>McDonald's</h2>
+                <img src="./assets/mcdonald.jpg" />
+                <p>Fast Food Resturant known for their french fries, burges and nuggets. Click <a href="https://www.mcdonalds.com/us/en-us.html" target="_blank">HERE</a> to go to their website.</p>
+            </li>
+            <li>
+                <h2>KFC</h2>
+                <img src="./assets/KFC.jpg" />
+                <p>Fast Food Resturant known for their fried chicken. Click <a href="https://www.kfc.com/" target="_blank">HERE</a> to go to their website.</p>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Table of ratings for each resturant based on certain categories -->
+    <div>
+        <i style="color: yellow;">#The rating is out of 10#</i>
+        <br>
+        <table>
+            <tr>
+                <th>Resturant</th>
+                <th>Quality</th>
+                <th>Taste</th>
+            </tr>
+            <tr>
+                <td>Subway</td>
+                <td>8</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>Domino's</td>
+                <td>6</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>Chick-Fil-A</td>
+                <td>8</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>McDonald's</td>
+                <td>6</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>KFC</td>
+                <td>7</td>
+                <td>7</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Link to myKitchen -->
+    <div>
+        <h2>Tired of Fast Food Resturants?</h2>
+        <h3>Click <a href="my_kitchen.html" style="color: rgb(193, 2, 2);">HERE</a> to view my favorite home cooked dish</h3>
+    </div>
+    <br>
+
+    <!-- Form to get information from users -->
+    <div>
+        <form>
+
+            <h3>What are your <span style="color: red;">favorite</span> fast food resturants? Please check all that applies:</h3>
+            <label for="sb">Subway</label>
+            <input id="sb" name="sb" type="checkbox" />
+            <label for="do">Domino's</label>
+            <input id="do" name="do" type="checkbox" />
+            <label for="cf">Chick-Fil-A</label>
+            <input id="cf" name="cf" type="checkbox" />
+            <label for="mc">McDonald's</label>
+            <input id="mc" name="mc" type="checkbox" />
+            <label for="kfc">KFC</label>
+            <input id="kfc" name="kfc" type="checkbox" />
+            <label for="other">Others</label>
+            <input id="other" name="other" type="checkbox" />
+
+
+            <h3>Any additional feedbacks are welcome:</h3>
+
+            <label for="name">Name:</label>
+            <input id="name" placeholder="Firstname, Lastname" /> <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="x@x.com" /> <br><br>
+
+            Please type your feedbacks in the textbox:
+            <br>
+            <textarea rows="10" cols="50">Comments                
+            </textarea>
+            <br>
+
+            <h3>Did you enjoyed your stay?</h3>
+            <select>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+                <option value="indifferent">Indifferent</option>
+            </select>
+            <br><br>
+
+            <input type="submit" value="submit">
+        </form>
+    </div>
+
+</body>
+
+</html>
